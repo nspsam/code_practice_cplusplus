@@ -17,3 +17,7 @@ Refer http://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegi
 # git fetch
 # git merge
 
+5. Add files / directories
+# git add <folder>
+# git add <filename>
+
