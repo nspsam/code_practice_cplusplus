@@ -2,6 +2,8 @@
 Commit files to master branch from master branch:
 -------------------------------------------------
 
+Refer http://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html
+
 1. Check differences in local repository
 # git status
 
@@ -10,4 +12,8 @@ Commit files to master branch from master branch:
 
 3. Push changes to GitHub repositiry
 # git push origin master
+
+4. Get update
+# git fetch
+# git merge
 
