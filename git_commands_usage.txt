@@ -1,0 +1,13 @@
+
+Commit files to master branch from master branch:
+-------------------------------------------------
+
+1. Check differences in local repository
+# git status
+
+2. Commit changes to local repository
+# git commit -m "<commit messaghe>" <file_name>
+
+3. Push changes to GitHub repositiry
+# git push origin master
+
