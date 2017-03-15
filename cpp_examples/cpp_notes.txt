@@ -1,0 +1,16 @@
+
+1. Standard Template Library containes Algorithms and Containers
+2. Algorithms operate on data
+3. Containers organize data. Containers are data structures
+4. STL operate to separate containes and algorithms for the purpose of
+   code reuse and simplicity
+5. If there are N Algorithms and M containers, as containers has different 
+   interfaces, number of all total implementations are N*M
+6. Instead of implementing algorithms specific to each data structures or
+   containers, it is simple to define unique interface using which algorithms
+   operate on data. The interface is called iterators. Iterators are six basic
+   types primarily. Containers has various degree of support for all the
+   iterators. So naturallly total implementations are limited to
+   N + C (some constant depend on iterators)
+   
+   

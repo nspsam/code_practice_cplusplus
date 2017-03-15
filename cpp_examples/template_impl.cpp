@@ -24,9 +24,7 @@ class BoVector {
 public:
   BoVector() : size(0) {}
   
-  void push(T x) {
-    array[size]=x; ++size;
-  }
+  void push(T x) { array[size]=x; ++size; }
   
   void print() const {
     for(int i=0; i<size; i++) {
@@ -34,13 +32,8 @@ public:
     }
   }
   
-  T get(int index) {
-    return array[index];
-  }
-  
-  int getsize() { 
-    return size;
-  };
+  T get(int index) const { return array[index];  }
+  int getsize() const { return size; };
 };
 
 // Operator modifier for BoVector
@@ -64,7 +57,7 @@ int main() {
   bv.push(10);
   bv.push(16);
   bv.push(2);
-  //bv.print();
+  bv.print();
   
   std::cout << "Print BoVector square: " << std::endl;
   bv = square(bv);
