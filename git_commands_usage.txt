@@ -21,3 +21,6 @@ Refer http://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegi
 # git add <folder>
 # git add <filename>
 
+6. to checkout:
+# git clone <PAth>
+
